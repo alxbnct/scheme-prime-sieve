@@ -1,4 +1,4 @@
-#!/usr/bin/csi -script
+#!/usr/local/scheme/chicken/git/bin/csi -script
 (import (chicken base)
 	(chicken port)
 	(chicken process-context)
