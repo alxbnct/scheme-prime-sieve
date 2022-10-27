@@ -13,7 +13,6 @@
 	     (not (= 0 e)))
 	   (primes (string->number (car (command-line-arguments)))))))
 
-
 (define (primes n)
   (let ((vec (make-u32vector (- n 2) 0)))
     (do ((i 2 (+ i 1)))
